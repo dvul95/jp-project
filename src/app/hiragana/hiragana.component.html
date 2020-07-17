@@ -1,0 +1,45 @@
+
+<h3 class="text text-light text-center" style="width: 100%;"> Hiragana Chart - ひらがな </h3> <!--* Will be changed to component!-->
+<br><br>
+<div class="container-fluid float-left">
+
+    <!--* Lead Letters -->
+    <div class="row w-25 pl-1" *ngFor="let lead of leads">
+        <div class="col-sm">
+           <span style="font-size: 24px;">{{lead.a}}</span> 
+        </div>
+        <div class="col-sm">
+            <span style="font-size: 24px;">{{lead.i}}</span> 
+         </div>
+         <div class="col-sm">
+            <span style="font-size: 24px;">{{lead.u}}</span> 
+         </div>
+         <div class="col-sm">
+            <span style="font-size: 24px;">{{lead.e}}</span> 
+         </div>
+         <div class="col-sm">
+            <span style="font-size: 24px;">{{lead.o}}</span> 
+         </div>
+    </div>
+
+    <!--* Hiragana letters  -->
+    <div class="row w-25 border border-danger" style="border-radius: 2px;" *ngFor="let letter of letters">
+
+        <div class="col-sm mr-auto border border-danger">
+           <!--{{letter.a}}--> 
+            <img [src]="letter.a" alt="a" style="width: 50px;">
+        </div>
+         <div class="col-sm mr-auto p-1 border border-danger">
+               <!--{{letter.i}}--> 
+               <img [src]="letter.i" alt="i" style="width: 50px;">
+            </div>
+        <div class="col-sm mr-auto p-1 border border-danger">
+            <img [src]="letter.u" alt="u" style="width: 50px;">
+         </div>   
+         <div class="col-sm mr-auto p-1 border border-danger">
+            <img [src]="letter.e" alt="e" style="width: 50px;">
+    </div>  
+    <div class="col-sm mr-auto p-1 border border-danger ">
+        <img [src]="letter.o" alt="o" style="width: 50px;">
+</div> 
+
