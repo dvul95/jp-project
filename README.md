@@ -1,6 +1,6 @@
-# Angular Project - Hiragana / Katakana chart app for new students
+# Angular Project - Hiragana / Katakana chart app
 
-An app that shows Hiragana / Katakana chart for new students who are starting to learn Japanese! 
+An app that shows Hiragana / Katakana chart for people who are starting to learn Japanese! 
 
 # This app will consist of: 
 
