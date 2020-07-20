@@ -8,13 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HiraganaComponent  implements OnInit{
 
-
-    leads = [
-
-      {a:'a', i:'i', u:'u', e:'e', o:'o'},
-    ];
-
-
     
     letters = [
           
