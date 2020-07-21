@@ -3,7 +3,7 @@
 <br><br>
 
 
-<div class="container-fluid float-left">
+<div class="container-fluid">
 
       <!--* // side letters -->
 
@@ -43,8 +43,26 @@
          </div>
       </div>
 
+      <div class="row">
+         <div class="col-sm-1">
+            <span style="font-size: 20px;">a</span>
+         </div>
+         <div class="col-sm-1">
+            <span style="font-size: 20px;">i</span>
+         </div>
+         <div class="col-sm-1">
+            <span style="font-size: 20px;">u</span>
+         </div>
+         <div class="col-sm-1">
+            <span style="font-size: 20px;">e</span>
+         </div>
+         <div class="col-sm-1">
+            <span style="font-size: 20px;">o</span>
+         </div>
+      </div>
+
     <!--* Hiragana letters  -->
-    <div class="row w-25 border border-danger" style="border-radius: 2px;" *ngFor="let letter of letters">
+    <div class="row border border-danger" style="border-radius: 2px; width: 40%;" *ngFor="let letter of letters">
         <div class="col-sm mr-auto border border-danger">
            <!--{{letter.a}}--> 
             <img [src]="letter.a" alt="a" style="width: 50px;">
@@ -61,5 +79,13 @@
     </div>  
     <div class="col-sm mr-auto p-1 border border-danger ">
         <img [src]="letter.o" alt="o" style="width: 50px;">
-</div> 
+   </div> 
+    </div>
+    <hr>
+    </div>
+    
+
+
+
+
 

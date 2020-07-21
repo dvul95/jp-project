@@ -87,6 +87,7 @@ export class HiraganaComponent  implements OnInit{
          u:'https://i.imgur.com/SLDeONr.png', 
          e:'https://i.imgur.com/SLDeONr.png', 
          o:'https://i.imgur.com/SLDeONr.png'},
+         
       ];
 
 
