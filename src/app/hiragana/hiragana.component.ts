@@ -90,7 +90,45 @@ export class HiraganaComponent  implements OnInit{
          
       ];
 
+       sound_letters  = [
+        { a:'./assets/images/ga.png',
+          e:'./assets/images/ge.png',
+          i:'./assets/images/gi.png',
+          o:'./assets/images/go.png', 
+          u:'./assets/images/gu.png'},
 
+        { a:'./assets/images/za.png',
+          e:'./assets/images/ze.png',
+          i:'./assets/images/ji.png',
+          o:'./assets/images/zo.png', 
+          u:'./assets/images/zu.png'},
+
+        { a:'./assets/images/da.png', 
+          e:'./assets/images/de.png',
+          i:'./assets/images/dji.png',
+          o:'./assets/images/do.png', 
+          u:'./assets/images/dzu.png'},
+
+        { a:'./assets/images/ba.png', 
+          e:'./assets/images/be.png',
+          i:'./assets/images/bi.png',
+          o:'./assets/images/bo.png', 
+          u:'./assets/images/bu.png'},
+
+        { 
+        a:'https://i.imgur.com/SLDeONr.png', 
+        e:'https://i.imgur.com/SLDeONr.png',
+        i:'https://i.imgur.com/SLDeONr.png',
+        o:'https://i.imgur.com/SLDeONr.png', 
+        u:'https://i.imgur.com/SLDeONr.png'
+       },
+       { 
+         a:'./assets/images/pa.png', 
+         e:'./assets/images/pe.png',
+         i:'./assets/images/pi.png',
+         o:'./assets/images/po.png', 
+         u:'./assets/images/pu.png'},
+       ]; 
 
       ngOnInit(): void {
         

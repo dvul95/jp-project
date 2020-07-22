@@ -7,9 +7,6 @@
       <h2 class="text-dark">Gojūon【五十音】</h2> 
    </div>
    <div class="col-sm w-25">
-      <h2 class="text-dark">Dakuon【濁音】/ Handakuon 【半濁音】</h2>
-   </div>
-   <div class="col-sm w-25">
       <h2 class="text-dark ml-5">Yōon【拗音】</h2>
    </div>
 </div>
@@ -95,6 +92,32 @@
    </div> 
     </div>
     <hr>
+
+   
+      <h2>Dakuon【濁音】/ Handakuon 【半濁音】</h2>
+
+    <div class=" pb-5">
+      <div class="row border border-danger" style="border-radius: 2px;" *ngFor="let letter of sound_letters">
+         <div class="col-sm mr-auto border border-danger">
+           <!--<p>{{letter.a}} </p>--> 
+           <img [src]="letter.a" alt="a">
+         </div>
+          <div class="col-sm mr-auto p-1 border border-danger">
+               
+             <img [src]="letter.i" alt="i"> 
+             </div>
+         <div class="col-sm mr-auto p-1 border border-danger">
+            <img [src]="letter.u" alt="u"> 
+          </div>   
+          <div class="col-sm mr-auto p-1 border border-danger">
+            <img [src]="letter.e" alt="e"> 
+     </div>  
+     <div class="col-sm mr-auto p-1 border border-danger ">
+      <img [src]="letter.o" alt="o"> 
+    </div> 
+     </div>
+    </div>
+
     </div>
     
 
