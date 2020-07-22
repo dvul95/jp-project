@@ -114,14 +114,6 @@ export class HiraganaComponent  implements OnInit{
           i:'./assets/images/bi.png',
           o:'./assets/images/bo.png', 
           u:'./assets/images/bu.png'},
-
-        { 
-        a:'https://i.imgur.com/SLDeONr.png', 
-        e:'https://i.imgur.com/SLDeONr.png',
-        i:'https://i.imgur.com/SLDeONr.png',
-        o:'https://i.imgur.com/SLDeONr.png', 
-        u:'https://i.imgur.com/SLDeONr.png'
-       },
        { 
          a:'./assets/images/pa.png', 
          e:'./assets/images/pe.png',
