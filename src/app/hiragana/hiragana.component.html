@@ -6,7 +6,7 @@
    <div class="col-sm w-25" style="margin-left: 50px;">
       <h2 class="text-dark">Gojūon【五十音】</h2> 
    </div>
-   <div class="col-sm w-25">
+   <div class="col-sm w-25 m">
       <h2 class="text-dark ml-5">Yōon【拗音】</h2>
    </div>
 </div>
@@ -72,7 +72,7 @@
       </div>
 
     <!--* Hiragana letters  -->
-    <div class="row border border-danger" style="border-radius: 2px; width: 40%;" *ngFor="let letter of letters">
+    <div class="row border border-danger" style="border-radius: 3px; width: auto;" *ngFor="let letter of letters">
         <div class="col-sm mr-auto border border-danger">
            <!--{{letter.a}}--> 
             <img [src]="letter.a" alt="a" style="width: 50px;">
@@ -113,10 +113,10 @@
    </div>
 
    
-      <h2>Dakuon【濁音】/ Handakuon 【半濁音】</h2>
+      <h2 style="padding-top: 2px; padding-bottom: 20px;">Dakuon【濁音】/ Handakuon 【半濁音】</h2>
 
     <div class=" pb-5">
-      <div class="row border border-danger" style="border-radius: 2px;" *ngFor="let letter of sound_letters">
+      <div class="row border border-danger" style="border-radius: 3px;" *ngFor="let letter of sound_letters">
          <div class="col-sm mr-auto border border-danger">
            <!--<p>{{letter.a}} </p>--> 
            <img [src]="letter.a" alt="a">
