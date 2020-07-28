@@ -122,6 +122,17 @@ export class HiraganaComponent  implements OnInit{
          u:'./assets/images/pu.png'},
        ]; 
 
+
+       combo_letters = [
+         {ya: 'kya', yo:'kyo', yu:'kyu', ya2:'gya', yo2:'gyo', yu2:'gyu'},
+         {ya: 'sha', yo:'sho', yu:'shu', ya2:'ja', yo2:'jo', yu2:'ju'},
+         {ya: 'cha', yo:'cho', yu:'chu', ya2:'/', yo2:'/', yu2:'/'},
+         {ya: 'nya', yo:'nyo', yu:'nyu', ya2:'/', yo2:'/', yu2:'/'},
+         {ya: 'hya', yo:'hyo', yu:'hyu', ya2:'bya', yo2:'byo', yu2:'byu'},
+         {ya: 'mya', yo:'myo', yu:'myu', ya2:'pya', yo2:'pyo', yu2:'pyu'},
+         {ya: 'rya', yo:'ryo', yu:'ryu', ya2:'/', yo2:'/', yu2:'/'},
+       ];
+
       ngOnInit(): void {
         
     }

@@ -12,8 +12,8 @@
 </div>
 
 
-
-<div class="container-fluid float-left" style="width: 800px;">
+<div class="container-fluid">
+   <div class="float-left" style="width: 800px;">
 
       <!--* // side letters -->
 
@@ -157,6 +157,39 @@
     </div>
 
     </div>
+
+
+      <!--* Letter Combos -->
+
+    <div class="float-right" style="width: auto; padding-right: 195px;">
+       <div class="row border border-danger" style="border: 2px solid; border-radius: 3px;" *ngFor="let combo of combo_letters">
+          <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+             <p>{{combo.ya}}</p>
+          </div>
+          <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+            <p>{{combo.yo}}</p>
+         </div>
+         <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+            <p>{{combo.yu}}</p>
+         </div>
+         <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+            <p>{{combo.ya2}}</p>
+         </div>
+         <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+            <p>{{combo.yo2}}</p>
+        </div>
+        <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
+         <p>{{combo.yu2}}</p>
+        </div>
+       </div>
+    </div>
+
+
+
+</div>
+
+
+
     
 
 
