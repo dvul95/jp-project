@@ -161,25 +161,25 @@
 
       <!--* Letter Combos -->
 
-    <div class="float-right" style="width: auto; padding-right: 195px;">
+    <div class="float-right w-50" style="width: fit-content;">
        <div class="row border border-danger" style="border: 2px solid; border-radius: 3px;" *ngFor="let combo of combo_letters">
           <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-             <p>{{combo.ya}}</p>
+            <img [src]="combo.ya" alt="ya" style="width: 125px;">
           </div>
           <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-            <p>{{combo.yo}}</p>
+            <img [src]="combo.yu" alt="yu" style="width: 125px;">
          </div>
          <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-            <p>{{combo.yu}}</p>
+            <img [src]="combo.yo" alt="yo" style="width: 125px;">
          </div>
          <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-            <p>{{combo.ya2}}</p>
+            <img [src]="combo.ya2" alt="ya2" style="width: 125px;">
          </div>
          <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-            <p>{{combo.yo2}}</p>
+            <img [src]="combo.yu2" alt="yu2" style="width: 125px;">
         </div>
         <div class="col-sm border border-danger" style="border: 1px solid; border-radius: 3px;">
-         <p>{{combo.yu2}}</p>
+         <img [src]="combo.yo2" alt="yo2" style="width: 125px;">
         </div>
        </div>
     </div>

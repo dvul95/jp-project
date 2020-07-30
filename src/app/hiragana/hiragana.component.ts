@@ -124,13 +124,61 @@ export class HiraganaComponent  implements OnInit{
 
 
        combo_letters = [
-         {ya: 'kya', yo:'kyo', yu:'kyu', ya2:'gya', yo2:'gyo', yu2:'gyu'},
-         {ya: 'sha', yo:'sho', yu:'shu', ya2:'ja', yo2:'jo', yu2:'ju'},
-         {ya: 'cha', yo:'cho', yu:'chu', ya2:'/', yo2:'/', yu2:'/'},
-         {ya: 'nya', yo:'nyo', yu:'nyu', ya2:'/', yo2:'/', yu2:'/'},
-         {ya: 'hya', yo:'hyo', yu:'hyu', ya2:'bya', yo2:'byo', yu2:'byu'},
-         {ya: 'mya', yo:'myo', yu:'myu', ya2:'pya', yo2:'pyo', yu2:'pyu'},
-         {ya: 'rya', yo:'ryo', yu:'ryu', ya2:'/', yo2:'/', yu2:'/'},
+         {
+           ya: './assets/hiracombo/kya.png',
+           yo:'./assets/hiracombo/kyo.png', 
+           yu:'./assets/hiracombo/kyu.png', 
+           ya2:'./assets/hiracombo/gya.png', 
+           yo2:'./assets/hiracombo/gyo.png', 
+           yu2:'./assets/hiracombo/gyu.png'},
+
+         {
+           ya: './assets/hiracombo/sha.png', 
+           yo:'./assets/hiracombo/sho.png', 
+           yu:'./assets/hiracombo/shu.png', 
+           ya2:'./assets/hiracombo/ja.png', 
+           yo2:'./assets/hiracombo/jo.png', 
+           yu2:'./assets/hiracombo/ju.png'},
+
+         {
+           ya: './assets/hiracombo/cha.png', 
+           yo:'./assets/hiracombo/cho.png', 
+           yu:'./assets/hiracombo/chu.png', 
+           ya2:'https://i.imgur.com/SLDeONr.png', 
+           yo2:'https://i.imgur.com/SLDeONr.png', 
+           yu2:'https://i.imgur.com/SLDeONr.png'},
+
+         {
+           ya: './assets/hiracombo/nya.png', 
+           yo:'./assets/hiracombo/nyo.png', 
+           yu:'./assets/hiracombo/nyu.png', 
+           ya2:'https://i.imgur.com/SLDeONr.png', 
+           yo2:'https://i.imgur.com/SLDeONr.png', 
+           yu2:'https://i.imgur.com/SLDeONr.png'},
+
+         {
+           ya: './assets/hiracombo/hya.png', 
+           yo:'./assets/hiracombo/hyo.png', 
+           yu:'./assets/hiracombo/hyu.png', 
+           ya2:'./assets/hiracombo/bya.png', 
+           yo2:'./assets/hiracombo/byo.png', 
+           yu2:'./assets/hiracombo/byu.png'},
+
+         {
+           ya: './assets/hiracombo/mya.png', 
+           yo:'./assets/hiracombo/myo.png', 
+           yu:'./assets/hiracombo/myu.png', 
+           ya2:'./assets/hiracombo/pya.png', 
+           yo2:'./assets/hiracombo/pyo.png', 
+           yu2:'./assets/hiracombo/pyu.png'},
+
+         {
+           ya: './assets/hiracombo/rya.png', 
+           yo:'./assets/hiracombo/ryo.png', 
+           yu:'./assets/hiracombo/ryu.png', 
+           ya2:'https://i.imgur.com/SLDeONr.png', 
+           yo2:'https://i.imgur.com/SLDeONr.png', 
+           yu2:'https://i.imgur.com/SLDeONr.png'},
        ];
 
       ngOnInit(): void {
