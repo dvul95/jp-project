@@ -7,6 +7,7 @@ import {FormsModule} from '@angular/forms';
 import { HiraganaComponent } from './hiragana/hiragana.component';
 import { KatakanaComponent } from './katakana/katakana.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
