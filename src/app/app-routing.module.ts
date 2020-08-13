@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HiraganaComponent } from './hiragana/hiragana.component';
 import { KatakanaComponent } from './katakana/katakana.component';
+import { AppComponent } from './app.component';
  
   //routes  
   const routes: Routes = [
