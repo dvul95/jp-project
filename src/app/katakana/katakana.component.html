@@ -1,2 +1,24 @@
 <h3 class="text text-light text-center bg bg-danger" style="width: 100%;"> Katakana Chart - カタカナ </h3> 
 <br><br>
+
+<div class="container-fluid">
+    <div class="float-left">
+        <div class="row" style="border: 1px solid red;" *ngFor="let letter of katakana_letters">
+            <div class="col" style="border: 1px solid red;">
+                <img [src]= "letter.a" width="90px" alt="kat_a">
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                <img [src]="letter.i" width="90px" alt="kat_i">
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                <img [src]="letter.u" width="90px" alt="kat_u">
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                <img [src]="letter.e" width="90px" alt="kat_e">
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                <img [src]="letter.o" width="90px" alt="kat_o">
+            </div>
+        </div>
+    </div>
+</div>
